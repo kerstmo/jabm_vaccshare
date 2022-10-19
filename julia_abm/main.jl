@@ -61,7 +61,6 @@ end
 POP_SIZE = 10000
 HH_SIZE = 5
 HH_NUMBER = POP_SIZE/HH_SIZE
-MAX_CONTACTS_HH = 5
 MAX_CONTACTS_OTHER = 10
 
 PROBA_TRANS_HH = 0.3
@@ -87,8 +86,6 @@ OUTPUT_LOCATION = "./julia_abm/output"
 # population remains same over runs. create once
 include("./popSynth.jl")
 
-#guess list:
-##0.7940
 
 # initialize running variables
 

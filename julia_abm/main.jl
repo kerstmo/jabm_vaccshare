@@ -76,7 +76,7 @@ OUTBREAK_CAP = 1000
 SEX = ["female", "male"]
 
 SEEDS = collect(1:30)
-OUTPUT_LOCATION = "/media/mk/McDrive/julia_abm/julia_abm/output"
+OUTPUT_LOCATION = "./julia_abm/output"
 
 
 

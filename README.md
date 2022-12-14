@@ -45,8 +45,6 @@ PARAMETERS:
     EDGE_PROBA = which share of runs should fulfill target condition?
     OUTBREAK_CAP = what is the max number of tolerated infected
 
-    SEX = ["female", "male"]
-
     SEEDS = collect(1:30) how many realisations shoudl be computed? many -> more precise, few -> faster
     OUTPUT_LOCATION = "./julia_abm/output"
 
